@@ -1,0 +1,110 @@
+body {}
+
+@font-face {
+    font-family: "kaushan";
+    src: url("assets/fonts/KaushanScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "montserrat-bold";
+    src: url("assets/fonts/Montserrat-ExtraBold.ttf");
+}
+
+.menu .container {
+    padding: 0 !important;
+}
+
+.menu a {
+    color: aliceblue
+}
+
+;
+
+.menu .active {
+    color: #FBE389
+}
+
+.navbar {
+    background-color: #E88484;
+}
+
+.text-kaushan {
+    font-family: kaushan;
+}
+
+.text-montserrat {
+    font-family: montserrat;
+}
+
+.text-montserrat-bold {
+    font-family: montserrat-bold;
+}
+
+.text-roboto {
+    font-family: roboto;
+}
+
+/*@media only screen and (max-width: 1100px){}*/
+.container {
+    width: 80%;
+    padding: 80px 0;
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    padding: 170px 0;
+}
+
+.hr {
+    width: 60px;
+    border: 1px solid red
+}
+
+;
+
+.h {
+    width: 600px;
+    border: 1px solid #f6f6f6
+}
+
+
+.unique-design {
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/images/uniq-design.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.clients {
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/images/p-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/images/map.jpg");
+    background-size: cover;
+    background-position: center;
+}

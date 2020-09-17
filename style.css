@@ -54,10 +54,10 @@ body {}
     font-family: roboto;
 }
 
-/*@media only screen and (max-width: 1100px){}*/
+
 .container {
     width: 80%;
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .banner {
@@ -92,7 +92,10 @@ body {}
     background-size: cover;
     background-position: center;
 }
-
+.unique-design .container{padding-bottom: 0;}
+.unique-design img{margin-bottom: -62px}
+.service .container{padding-top: 100px}
+.user img{height: 100px; width: 100px}
 .clients {
     height: 100%;
     width: 100%;
@@ -107,4 +110,7 @@ body {}
     background-image: url("assets/images/map.jpg");
     background-size: cover;
     background-position: center;
+}
+@media only screen and (max-width: 550px){
+    .unique-design img{height: }
 }

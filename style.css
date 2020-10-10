@@ -1,5 +1,4 @@
 body {}
-
 @font-face {
     font-family: "kaushan";
     src: url("assets/fonts/KaushanScript-Regular.ttf");
@@ -37,7 +36,7 @@ body {}
 .navbar {
     background-color: #E88484;
 }
-
+.menu-burger{border: 1px solid #fff; padding:10px 15px; font-size: 20px; color: #fff}
 .text-kaushan {
     font-family: kaushan;
 }

@@ -1,2 +1,1 @@
-# mogo
-html css bootstrap responsive
+# <a href="https://ab-siddiq.github.io/mogo-site">LIVE</a>
